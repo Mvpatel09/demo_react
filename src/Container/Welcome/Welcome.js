@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 export default function Welcome() {
     let heading = [
         {
-            heading: "Submersible Pump",
+            heading: "Submersible Pump & Motor",
             image: Png.WcImage1,
             link: "/submersible-pump/"
         },
