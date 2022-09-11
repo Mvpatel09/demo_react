@@ -28,6 +28,9 @@ export default function Welcome() {
             <Box component="h1" className="wc-main-heading">
                 V-Max Exim
             </Box>
+            <span className="wc-main-message">
+                Go to our product range...
+            </span>
             <Grid
                 container
                 spacing={1}

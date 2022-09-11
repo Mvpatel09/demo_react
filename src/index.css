@@ -5,10 +5,56 @@
 }
 
 .wc-main-heading {
-  color: rgb(26, 2, 2);
   display: flex;
   justify-content: center;
   margin: 40px 0px 40px 0px;
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}
+
+.wc-main-message {
+  color: rgb(26, 2, 2);
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-20px)
+  }
 }
 
 .wc-main-image1-main-div {
