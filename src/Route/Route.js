@@ -8,8 +8,6 @@ export default function Router() {
     return (
         <BrowserRouter>
             <Route path="/" component={Welcome} />
-            <Route path="/test" component={Welcome} />
-
         </BrowserRouter>
     );
 }
