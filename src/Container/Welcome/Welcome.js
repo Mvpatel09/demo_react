@@ -1,6 +1,7 @@
 import { Box, Grid } from "@mui/material"
 import { Png } from "../../Asserts/Images/Png"
 import { Jpg } from "../../Asserts/Images/Jpg"
+import { Link } from "react-router-dom"
 
 
 
@@ -8,21 +9,24 @@ export default function Welcome() {
     let heading = [
         {
             heading: "Submersible Pump",
-            image: Png.WcImage1
+            image: Png.WcImage1,
+            link: "/submersible-pump/"
         },
         {
             heading: "Industrial Spares & Parts",
-            image: Jpg.WcImage2
+            image: Jpg.WcImage2,
+            link: "/industrial-spares-parts/"
         },
         {
             heading: "Food & Beverage",
-            image: Jpg.WcImage3
+            image: Jpg.WcImage3,
+            link: "/food-beverage/"
         },
     ]
     return (
         <>
             <Box component="h1" className="wc-main-heading">
-                V-Max exim
+                V-Max Exim
             </Box>
             <Grid
                 container
@@ -34,12 +38,14 @@ export default function Welcome() {
                             <>
                                 <Grid item lg={4} md={4} xs={12}>
                                     <Box className="wc-main-image1-main-div">
-                                        <Box className="wc-main-image1-div">
-                                            <img className="wc-main-image1-tag" src={data.image} />
-                                        </Box>
-                                        <Box className="wc-main-image1-heading">
-                                            {data.heading}
-                                        </Box>
+                                        <Link className="link-underline" to={`${data.link}`}>
+                                            <Box className="wc-main-image1-div">
+                                                <img className="wc-main-image1-tag" src={data.image} />
+                                            </Box>
+                                            <Box className="wc-main-image1-heading">
+                                                {data.heading}
+                                            </Box>
+                                        </Link>
                                     </Box>
                                 </Grid>
                             </>

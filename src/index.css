@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+.link-underline {
+  text-decoration: none;
+}
+
 .wc-main-heading {
   color: rgb(26, 2, 2);
   display: flex;
@@ -33,6 +37,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: large;
   padding: 40px 0px 40px 0px;
+  text-transform: uppercase;
 }
 
 .wc-main-image1-tag {
