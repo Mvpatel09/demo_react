@@ -1,5 +1,9 @@
 import React from 'react';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -14,6 +18,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Link from '@mui/material/Link';
 
 const pages = ['Home', 'AboutUs', 'OurProducts', 'Network', 'ContactUs'];
 
@@ -44,7 +49,13 @@ const SubmersiblePumpHeader = () => {
                     <spna className="home-header-div-details">+91 7041811706</spna>
                 </Box>
                 <Box className="home-header-details-main-div">
-                    <EmailIcon fontSize="small" /><spna className="home-header-div-details">parthkhunt70@gmail.com</spna>
+                    <EmailIcon fontSize="small" /><a className="home-header-div-details" href='mailto:parthkhunt70@gmail.com' target="_blank">parthkhunt70@gmail.com</a>
+                    <Box sx={{ ml: 2 }}>
+                        <Link className="home-header-div-details" href='mailto:parthkhunt70@gmail.com' target="_blank"><LinkedInIcon target="_blank" sx={{ px: 1 }} /></Link>
+                        <Link className="home-header-div-details" href='mailto:parthkhunt70@gmail.com' target="_blank"><InstagramIcon sx={{ px: 1 }} /></Link>
+                        <Link className="home-header-div-details" href='mailto:parthkhunt70@gmail.com' target="_blank"><YouTubeIcon sx={{ px: 1 }} /></Link>
+                        <Link className="home-header-div-details" href='mailto:parthkhunt70@gmail.com' target="_blank"><FacebookIcon sx={{ px: 1 }} /></Link>
+                    </Box>
                 </Box>
             </Box>
             <AppBar sx={{ background: "#3d464a" }} position="static">

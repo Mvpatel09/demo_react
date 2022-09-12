@@ -1,7 +1,7 @@
 import SubmersiblePumpHeader from "../../../Components/SubmersiblePump/Header/Header"
 import OwlCarousel from 'react-owl-carousel2';
 import 'react-owl-carousel2/lib/OwlCarousel';
-import Slider from "./Slider";
+import Slider from "../Slider/Slider";
 
 export default function submersiblePumpHome() {
 

@@ -1,0 +1,42 @@
+.owl-carousel {
+    position: relative;
+}
+
+.owl-nav {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    width: 100%;
+}
+
+.owl-next {
+    right: 0;
+    position: absolute;
+}
+
+.owl-prev {
+    left: 0;
+    position: absolute;
+}
+
+.owl-dots {
+    position: absolute;
+    z-index: 1;
+    bottom: 2%;
+    left: 50%;
+}
+
+.textoverlay {
+    top: 50%;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    left: 50%;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
