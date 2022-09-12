@@ -27,11 +27,11 @@
 }
 
 .textoverlay {
-    top: 50%;
+    top: 30%;
     position: absolute;
     color: #fff;
     font-size: 30px;
-    left: 50%;
+    left: 30%;
 }
 
 .img-responsive {
