@@ -115,3 +115,26 @@ body {
   font-size: 14px;
   color: #f2f3f9 !important;
 }
+
+.our-product-main-heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 40px 0px 40px 0px;
+}
+
+.our-product-child-div {
+  padding: 0px 30px 0px 30px;
+}
+
+.our-product-heading {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.our-product-img {
+  width: 50%;
+  height: 50%;
+}

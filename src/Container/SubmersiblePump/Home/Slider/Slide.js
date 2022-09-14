@@ -9,7 +9,7 @@ const Slide = (props) => {
             <img class="img-responsive" src={img} alt="First slide" />
 
             <div className="textoverlay">
-                <h3 className="display">{title} </h3>
+                <h2 className="display">{title} </h2>
                 <div className="content">{content}</div>
                 {/* <Link to="/about" className="view_more" title="View More">View More</Link> */}
                 {/* <Link to="/contactUs" className="view_more contact_us" title="Contact Us">Contact Us</Link> */}

@@ -7,16 +7,19 @@
     z-index: 1;
     top: 45%;
     width: 100%;
+    display: none;
 }
 
 .owl-next {
     right: 0;
     position: absolute;
+    display: none;
 }
 
 .owl-prev {
     left: 0;
     position: absolute;
+    display: none;
 }
 
 .owl-dots {
@@ -27,11 +30,11 @@
 }
 
 .textoverlay {
-    top: 30%;
+    top: 26%;
     position: absolute;
     color: #fff;
-    font-size: 30px;
-    left: 30%;
+    font-size: 20px;
+    left: 6%;
 }
 
 .img-responsive {
