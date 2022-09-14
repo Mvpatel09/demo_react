@@ -26,7 +26,7 @@ export default function Welcome() {
     return (
         <>
             <Box component="h1" className="wc-main-heading">
-                V-Max Exim
+                <img className="logo-image" src={Jpg.Logo} />
             </Box>
             <span className="wc-main-message">
                 Go to our product range...

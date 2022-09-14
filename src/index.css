@@ -8,6 +8,12 @@ body {
   text-decoration: none;
 }
 
+.logo-image{
+  height: 20vh;
+  object-fit: contain;
+  width: 100%;
+}
+
 .wc-main-heading {
   display: flex;
   justify-content: center;
