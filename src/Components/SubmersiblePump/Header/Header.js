@@ -58,7 +58,7 @@ const SubmersiblePumpHeader = () => {
                     </Box>
                 </Box>
             </Box>
-            <AppBar sx={{ background: "#3d464a" }} position="static">
+            <AppBar sx={{ background: "#3d464a" }} position="sticky">
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
