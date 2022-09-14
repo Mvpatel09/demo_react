@@ -8,8 +8,8 @@ body {
   text-decoration: none;
 }
 
-.logo-image{
-  height: 20vh;
+.logo-image {
+  height: 10vh;
   object-fit: contain;
   width: 100%;
 }
@@ -17,7 +17,7 @@ body {
 .wc-main-heading {
   display: flex;
   justify-content: center;
-  margin: 40px 0px 40px 0px;
+  margin: 20px 0px 20px 0px;
   text-transform: uppercase;
   background-image: linear-gradient(-225deg,
       #231557 0%,

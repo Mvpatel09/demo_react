@@ -25,7 +25,7 @@ export default function Welcome() {
     ]
     return (
         <>
-            <Box component="h1" className="wc-main-heading">
+            <Box className="wc-main-heading">
                 <img className="logo-image" src={Jpg.Logo} />
             </Box>
             <span className="wc-main-message">
