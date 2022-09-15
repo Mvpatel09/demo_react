@@ -1,7 +1,7 @@
 import { Box } from "@mui/system";
 import { Grid } from "@mui/material";
 
-export default function AboutUs() {
+export default function OurProducts() {
     return (
         <>
             <Box className="our-product-main-heading" component='h1'>

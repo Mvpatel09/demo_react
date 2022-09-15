@@ -1,7 +1,11 @@
 import SubmersiblePumpHeader from "../../../Components/SubmersiblePump/Header/Header"
 import 'react-owl-carousel2/lib/OwlCarousel';
 import Slider from "./Slider/Slider";
-import AboutUs from "./OurProducts/OurProducts";
+import OurProducts from "./OurProducts/OurProducts";
+import WhyWe from "./WhyWe/WhyWe";
+import Certification from "./Certification/Certification";
+import ContactFooter from "./ContactFooter/ContactFooter";
+
 
 export default function submersiblePumpHome() {
 
@@ -9,7 +13,10 @@ export default function submersiblePumpHome() {
         <>
             <SubmersiblePumpHeader />
             <Slider />
-            <AboutUs />
+            <OurProducts />
+            <WhyWe />
+            <Certification />
+            <ContactFooter />
         </>
     )
 }
